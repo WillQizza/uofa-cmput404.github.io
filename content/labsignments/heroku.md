@@ -1,7 +1,7 @@
 Title: Heroku Lab
 date: 2024-01-25
 tags: labs
-authors: Xin Yang
+authors: Xin Yang, William Qi
 status: Published
 summary: Lab Procedure, Lab Assignments, Lab Marking
 
@@ -11,8 +11,9 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 # Description
 
-Big lab! This lab contains two phases. In Phase One, you will build a simple Django website. Understand the fundamentals of Django's MVC architecture using the built in models and views.
+**Big lab!** This lab contains three phases. In Phase One, you will build a simple Django website. Understand the fundamentals of Django's MVC architecture using the built in models and views.
 In Phase Two, you will deploy the Django application to [Heroku](https://www.heroku.com/). Understand the reasoning behind Platform as a Service (PaaS) businesses like Heroku. You may follow the official documentation.
+In Phase Three, you will be responsible for adding a message board and deploying it properly on Heroku!
 
 ## Warning!
 
@@ -38,7 +39,7 @@ You have several options to make sure this doesn't happen:
         * Windows 10/11: <https://allthings.how/how-to-edit-hosts-file-in-windows-11/>
     * If it stops working check again with nslookup and update it.
 * Use a VPN service or proxy.
-* Demo over Zoom using Shaw or Telus internet, or another internet not provided by the University.
+* Demo using another internet not provided by the University while in the lab room.
 
 # Getting Started
 
@@ -1064,6 +1065,10 @@ You can use the `heroku open` command to open your heroku app in a web browser.
 * Make sure your heroku app remembers the results of your polls and your superuser login!
     * If your heroku is not configured properly to use postgres it will forget them randomly! (somewhere between 0 and 24 hours.)
 
+## Phase 3: Message Board Implementation
+
+In this phase, we will only be providing you a partial implementation of the messaging board. You will be responsible for implementing the rest!
+
 # Restrictions
 
 Violation of the restrictions will result in a mark of zero.
@@ -1072,7 +1077,7 @@ Violation of the restrictions will result in a mark of zero.
 * Must run on Ubuntu (Use the undergrad lab machines, for example the ones in CSC 2-29 or install an Ubuntu VM to check this)
 * Must run on your machine (whatever machine you use to demo)
 * Must be running on heroku, with some polls that you created for the TA to look at when they mark it.
-* Git repo must not contain 
+* Must follow student code of conduct
 
 # Requirements
 
